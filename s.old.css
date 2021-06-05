@@ -1,0 +1,41 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+.teaser_hero {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 40%;
+}
+@media screen and (min-width:900px) {
+	.teaser_hero {
+		width: 20%;
+		margin-top: 20%;
+	}
+}
+
+.teaser-img {
+	width: 100%;
+}
+
+.teaser_txt {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+}
+@media screen and (min-width:900px) {
+	.teaser_txt {
+		width: 20%;
+		margin: 0 auto;
+		text-align: center;
+		font-family: Helvetica, sans-serif;
+		font-size: 10px;
+	}
+}
