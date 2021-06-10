@@ -542,7 +542,7 @@ ul.social li {
 }
 
 
-#newsletter a, a:visited, a:active, a:link, a:default, a:hover {
+#newsletter a, #newsletter a:visited, #newsletter a:active, #newsletter a:link, #newsletter a:default, #newsletter a:hover {
 	font-size: 11px;
 	margin-bottom: 100px;
 }
