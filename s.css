@@ -473,3 +473,81 @@ ul.social li {
 		margin-left: 7%;
 	}
 }
+
+#newsletter-popup {
+	color: black;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	bottom: 5%;
+	right: 0;
+	width: 200px;
+	height: 15px;
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 20px;
+	font-size: 8px;
+	z-index: 1;
+	display: none;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	display: none;
+	cursor: pointer;
+	text-rendering: optimizeLegibility !important;
+
+}
+
+#newsletter {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	border: 1px solid black;
+	display: none;
+	width: 80%;
+	background-color: white;
+	padding: 20px;
+	padding-top: 15px;
+}
+@media screen and (min-width:900px) {
+	#newsletter {
+		width: 600px;
+		height: 200px;
+		max-height: initial;
+		max-width: initial;
+	}
+}
+
+#newsletter h1 {
+	font-size: 18px;
+}
+#newsletter h2 {
+	font-size: 14px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#newsletter p {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+@media screen and (min-width:900px) {
+	#newsletter p {
+		text-transform: uppercase;
+		font-size: 11px;
+		width: 400px;
+	}
+}
+
+
+#newsletter a, a:visited, a:active, a:link, a:default, a:hover {
+	font-size: 11px;
+	margin-bottom: 100px;
+}
+
+#popup-close {
+	margin-top: 10px;
+	font-size: 12px;
+}
