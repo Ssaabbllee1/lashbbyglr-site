@@ -237,6 +237,28 @@ ul.client-care-links li {
 	}
 }
 
+.about-img {
+	display: none;
+}
+@media screen and (min-width:900px) {
+	.about-img {
+		display: block;
+		width: 50%;
+		margin-top: 10%;
+	}
+}
+
+.about-img-mobile {
+	width: 50%;
+}
+
+@media screen and (min-width:900px) {
+	.about-img-mobile {
+		display: none;
+	}
+}
+
+
 .page-text {
 	width: 64%;
 	margin: 0 auto;
