@@ -580,11 +580,18 @@ ul.social li {
 	text-align: center;
 }
 
-.badge {
-	margin: 0 auto;
-}
 .badge img {
 	width: 100px;
 	padding-bottom: 10px;
 	margin-top: 30px;
+}
+
+@media screen and (min-width:900px) {
+	.copyright {
+		text-align: left;
+		margin-left: 5%;
+	}
+	.badge img {
+		margin-left: 5%;
+	}
 }
