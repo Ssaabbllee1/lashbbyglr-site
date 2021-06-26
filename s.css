@@ -601,3 +601,142 @@ ul.social li {
 	margin-left: 5%;
 }
 
+/* SHOP */
+.shop-content {
+	width: 80%;
+	margin: 0 auto;
+}
+.shop-item {
+	width: 40%;
+}
+.shop-item img {
+	width: 100%;
+}
+.shop-item p {
+	font-size: 11px;
+	text-align: center;
+}
+	@media screen and (min-width:900px) {
+		.shop-item {
+			width: 20%;
+		}
+		.shop-item img {
+			width: 100%;
+		}
+	}
+	
+.shop-item-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.shop-item-content img {
+	width: 100%;
+}
+
+.shop-item-attributes {
+	text-align: center;
+}
+
+.shop-item-attributes p {
+	font-size: 11px;
+}
+
+.shopify-buy__btn {
+	padding-bottom: 0;
+	text-align: center;
+	margin: 0;
+	margin-top: 10%;
+	position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%);
+	  transform: translate(-50%);
+}
+
+button {
+	font-family: 'Helvetica', sans-serif;
+	color: black;
+	margin-top: 11px;
+	padding-left: 0;
+	border: 0;
+	font-size: 11px;
+	-webkit-appearance: none;
+	background-color: rgba(0,0,0,0);
+	text-transform: uppercase;
+}
+
+.shopify-buy__cart-toggle {
+	background-color: white;
+	color: black;
+}
+
+.shopify-buy__icon-cart__group {
+	display: none;
+}
+.shopify-buy--visually-hidden {
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.shopify-buy__icon-cart .shopify-buy__icon-cart--side {
+	display: none;
+}
+.shopify-buy__cart-toggle__count {
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+svg {
+	display: none;
+}
+div.shopify-buy-frame--toggle.is-sticky {
+	width: 56px;
+	color: black;
+	position: absolute;
+	right: 14%;
+	top: 14%;
+	padding: 0;
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	padding-bottom: 4px;
+	margin-top: 2%;
+}
+
+p.shopify-buy--visually-hidden {
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	display: inline-block;
+}
+div.shopify-buy__cart-toggle__count {
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	padding-left: 10px;
+	display: inline-block;
+}
+	@media screen and (min-width:900px) {
+		.shop-item-content {
+			width: 20%;
+		}
+		
+		.shop-item-attributes {
+			width: 
+		}
+		
+		.shop-item-attributes p {
+			font-size: 11px;
+		}
+		
+		.shopify-buy__btn {
+			padding-bottom: 0;
+			text-align: center;
+			margin: 0;
+			margin-top: 2%;
+			position: absolute;
+			left: 50%;
+			-ms-transform: translate(-50%);
+			  transform: translate(-50%);
+		}
+	}
