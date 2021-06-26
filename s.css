@@ -104,7 +104,7 @@ a, a:visited, a:active, a:link, a:default, a:hover {
 		}
 		.col {
 		  flex: 1;
-		  overflow: clip;
+		 
 		}
 	}
 
