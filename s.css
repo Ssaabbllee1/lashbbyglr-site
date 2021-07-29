@@ -750,3 +750,14 @@ div.shopify-buy__cart-toggle__count {
 			  transform: translate(-50%);
 		}
 	}
+	
+.center {
+	width: 36%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+@media screen and (max-width:900px) {
+	.center {
+		width: 80%;
+	}
+}
