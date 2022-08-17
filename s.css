@@ -161,9 +161,8 @@ footer {
 }
 @media screen and (min-width:900px) {
 	footer {
-		position: absolute;
+		position: relative;
 		bottom: 0;
-		
 	}
 }
 .client-care-title {
@@ -384,30 +383,61 @@ button {
 
 a.book-link {
 	display: none;
+	position: relative;
+	background-color: white;
 }
 @media screen and (min-width:900px) {
 	a.book-link {
 		font-size: 12px;
 		font-weight: bold;
-		text-decoration: underline;
+		padding: 8px 20px;
+		border: 2px solid #333;
+		border-radius: 4px;
+		display: inline-block;
 		margin-left: 10%;
-		display: block;
+	}
+	a.book-link.align-items-center {
+		margin-top: 20px;
+		margin-left: calc(50% - 60.5px);
 	}
 }
 
 a.book-link-mobile {
-	font-size: 12px;
-	font-weight: bold;
-	text-decoration: underline;
-	display: block;
-	text-align: center;
+	position: relative;
+	background-color: #fff;
 	margin-top: 4%;
 	margin-bottom: 10%;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 20px;
+	border: 2px solid #333;
+	border-radius: 4px;
+	display: inline-block;
+	margin-left: calc(50% - 60.5px);
 }
 @media screen and (min-width:900px) {
 	a.book-link-mobile {
 		display: none;
 	}
+}
+
+a.book-link::before, a.book-link-mobile::before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	background-color: #33333388;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: .3s all;
+	border-radius: 4px;
+}
+
+a.book-link:hover::before, a.book-link-mobile:hover::before {
+	transform: scale(2);
+	opacity: 0;
 }
 
 .service_img {
@@ -568,6 +598,9 @@ ul.social li {
 		font-size: 11px;
 		width: 400px;
 	}
+}
+.site-about {
+	margin-top: 20px;
 }
 
 
