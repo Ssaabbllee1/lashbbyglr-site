@@ -5,6 +5,7 @@ html {
 }
 
 body {
+	color: #333;
 }
 @media screen and (min-width:900px) {
 	body {
@@ -110,7 +111,7 @@ a, a:visited, a:active, a:link, a:default, a:hover {
 
 .hero-container {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 @media screen and (min-width:900px) {
 	.nav {
@@ -442,12 +443,13 @@ a.book-link-mobile {
 @media screen and (min-width:900px) {}
 
 video {
-	width: 80%;
+	width: 65%;
 	text-align: center;
 }
 @media screen and (min-width:900px) {
 	video {
-		margin-left: -20%;
+		width: auto;
+		height: 75vh;
 	}
 }
 
@@ -732,7 +734,7 @@ div.shopify-buy__cart-toggle__count {
 		}
 		
 		.shop-item-attributes {
-			width: 
+			width: auto;
 		}
 		
 		.shop-item-attributes p {
